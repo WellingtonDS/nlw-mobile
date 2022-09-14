@@ -7,7 +7,7 @@ interface Props {
     children: React.ReactNode;
 }
 
-export function background({children}: Props) {
+export function Background({children}: Props) {
   return (
     <ImageBackground 
         source={backgroundImg}
